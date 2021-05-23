@@ -1,4 +1,4 @@
-# MyFirstWebPage
+# My First Web Page 
 I made this web site with using pure HTML and CSS and then I made it responsive with using Bootstrap.
 
 * Phase 1 is made with pure HTML and CSS and is not responsive.
