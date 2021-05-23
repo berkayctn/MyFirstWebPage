@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Contact Me page">
+    <meta name="keywords" content="Contact Me">
+    <meta name="author" content="Berkay Çetin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <title>Contact Me - World News</title>
+
+<style>
+
+body{
+     background-image:url(https://i.pinimg.com/originals/fd/52/af/fd52af4100d3a275fcae8b42f62f6594.jpg) ;
+     background-size: cover;
+    background-position: center; 
+     
+    
+     }
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <a class="navbar-brand" href="home.html">World News</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sport.html">Sport</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="travel.html">Travel</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="culture.html">Culture</a>
+            </li>
+
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More
+                
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="contactme.html">Contact Me</a>
+                <a class="dropdown-item" href="aboutme.html">About Me</a>
+              </div>
+            </li>
+
+
+                <li class="nav-item">
+                    <a href="signin.html" class="nav-link">Sign in</a>
+                </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0" action="https://www.google.com/search" method="GET">
+            <input class="form-control mr-sm-2 googlesearch-text" name="q" type="search" placeholder="Search..." aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit" >Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+
+
+
+
+    <div class="container my-5 text-white">
+      
+        <form action="response.html" method="POST" >
+
+          <div class="row">
+          <div class="form-group col-8  mx-auto ">
+            <label for="rname"> Name Surname :</label>
+            <input type="text" class="form-control" name="register-name"  id="rname"  required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-group col-8  mx-auto">
+            <label for="rmail">Email:</label>
+            <input type="email" class="form-control" name="register-email" id="rmail" placeholder="@example.com" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-group col-8 mx-auto ">
+            <label for="telnumber"> Telephone number:</label>
+            <input type="tel" name="telno"   class="form-control" id="telnumber" placeholder="Max length must be 11." required maxlength="11" pattern="[0-9]{11}" >
+          </div>
+        </div>
+
+      <div class="row">
+          <div class="form-group col-8 mx-auto ">
+            <label for="department">Issue:</label>
+            <select name="register-department" class="form-control" id="department" >
+               <option>----</option>
+               <option>I forget my email</option>
+               <option>I forget my password</option>
+               <option>I forget my username</option>
+               <option>Complaint</option>
+               <option>Other issues</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-group  col-8  mx-auto  ">
+            <label class="textarea-icin-label" for="aboutme">Message:</label>
+            <textarea name="register-aboutme" class="form-control" id="aboutme" rows="5"  ></textarea><br><br>
+          </div>
+        </div>
+    
+          <p class="text-center">
+            <button class="btn btn-md btn-light " type="submit">Send</button><br><br>
+            <a class="home-icon" href="home.html"> <i class="fa fa-home"></i></a>
+         </p>
+
+            <p style="color: white;" class="text-center"><strong>OR</strong></p> <br>
+          <p style="color: white;" class="text-center">If you want to contact me,here my e-mail address <br><a href="mailto:berkaycetin1710@gmail.com"  >Berkay Çetin</a></p><br>
+        
+        </form>
+
+      </div>
+
+
+
+
+
+      <footer class=" footer py-4 bg-dark text-white text-center fixed-bottom  ">
+        <div class="container">
+          <span class="text-light"> Copyright © 2021 World News.</span>    
+      </div>
+      </footer>
+
+
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sign in page">
+    <meta name="keywords" content="Sign in">
+    <meta name="author" content="Berkay Çetin">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <title>Sign in - World News </title>
+
+    <style>
+
+       .home-icon{
+          font-size: 20px;
+       }
+
+      input[type=submit] {
+        background-color: #ffffff;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+       
+      }
+      
+         body{
+            background-image:url(https://i.pinimg.com/originals/fd/52/af/fd52af4100d3a275fcae8b42f62f6594.jpg) ;
+            background-size: cover;
+           
+         }
+      
+         
+         #div-register-cevre{
+            height: 250px;
+            width: 350px;
+            margin: 250px;
+            border-style: outset;
+            
+         
+         }
+      
+        #div-register{
+           font-style: italic;
+           border: 5px;
+           text-align: center;
+           margin: 15px;
+           color: white;
+          
+        }
+      
+      #div-register #registernow{
+         font-size: 16px;
+         margin-top: 15px;
+      
+      }
+      
+      a{
+         color: rgb(10, 201, 143);
+      }
+      
+        
+      </style>
+      
+</head>
+
+
+<body>
+      <nav>
+        <ul>
+         <li id="websitename-worldnews"><h1 style="color:white;"> WORLD NEWS  </h1></li>
+            <li>
+               <a href="home.html">Home</a>
+            </li>
+            <li>
+               <a href="news.html">News</a>
+            </li>
+            <li>
+               <a href="sport.html">Sport</a>
+            </li>
+            <li>
+               <a href="travel.html">Travel</a>
+            </li>
+            <li>
+               <a href="culture.html">Culture</a>
+            </li>
+            <li> 
+               <a  href="more.html">More</a>                                                   
+              </li>  
+
+            <li>
+               <a class="active" href="signin.html">Sign in</a>
+            </li>
+            <li>
+               <div id="search-button"> 
+                  <form action="https://www.google.com/search" method="GET">
+                     <input type="text" class="googlesearch-text" name="q" placeholder="Search...">
+                     <input type="submit" value="Search">
+                 </form>
+                </div>
+            </li>         
+        </ul>
+      </nav>
+
+   
+   <div id="div-register-cevre">
+    <div id="div-register">
+       <p>-WELCOME TO WORLD NEWS-</p> <br>
+       
+       <form action="home.html" method="POST">
+         <p> 
+            Username:<input type="text" name="user-username" required> <br><br>
+         </p>
+
+         <p>
+            Password: <input type="password" name="user-password" required>
+         </p><br>
+      
+         <input  type="submit" class="signbutton" name="send" value="Signin"><br><br>
+
+         <a class="home-icon" href="home.html"> <i class="fa fa-home"></i></a>
+         <p id="registernow">Don't have a account ? <a href="register.html">Register now !</a></p>
+      </form>
+
+
+    </div>
+   </div>
+
+
+  
+
+
+
+    <div class="footer">
+      <p>Copyright © 2021 World News.<br> The World News is not responsible for the content of external sites.</p>
+       </div>
+
+
+    
+</body>
+</html>

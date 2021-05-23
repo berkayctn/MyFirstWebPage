@@ -1,0 +1,68 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar{
+    opacity: 0.9;
+   
+}
+
+
+
+.active{
+    font-size: 1.2rem;
+    background-color: #403ec5;
+    border-radius: 0.28rem;
+
+}
+.navbar-brand{
+    font-size: 1.8rem;
+}
+
+
+.carousel {
+    margin-bottom: 4rem;
+  }
+
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+
+
+  .carousel-item {
+    height: 25rem;
+    background-color: #777;
+  }
+
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+
+
+.jumbotron{
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 25rem;
+}
+
+.jumbotron-baslik{
+    color: white;
+    font-style: italic; 
+     font-family: 'Times New Roman', Times, serif;
+  }
+
+
+
+
+ .home-icon {
+    font-size: 2rem;
+    color: white;
+    
+  }
+

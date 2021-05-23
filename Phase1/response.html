@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Response page">
+    <meta name="keywords" content="Response">
+    <meta name="author" content="Berkay Çetin">
+    <meta name = "viewport" content= "width = device-with , initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <title>Response - World News </title>
+
+    <style>
+        
+
+        body{
+            background-image: url(https://i.pinimg.com/originals/fd/52/af/fd52af4100d3a275fcae8b42f62f6594.jpg);
+            background-size: cover;
+        }
+
+        #websitename-worldnews{
+        margin-top: 9px;
+
+      }
+
+      .home-icon{
+         text-align: center;
+      }
+
+        h2,caption{
+            margin-top: 10px;
+            text-align: center;
+            font-style: italic;
+        }
+
+      p{
+         margin-top: 10px;
+         text-align: center;
+        }
+
+
+    #response-table{
+      
+       background-color: white;
+         margin: auto;
+         margin-top: 150px;
+         margin-bottom: 30px;
+         width: 70%;
+         box-shadow: 0 0 16px rgba(0,0,0,0.4);
+         border-radius: 4px;
+         opacity: 0.9;
+                    
+        }
+
+        table, th, td {
+          border: 1px solid black;
+        }
+
+        table{
+           border-collapse: collapse;
+           width: 100%;
+        }
+
+        th,td{
+           text-align: left;
+           padding: 8px;
+        }
+
+        caption{
+           margin-bottom: 8px;
+           font-size: 40px;
+        }
+
+      
+
+    
+    </style>
+</head>
+
+
+<body>
+   
+
+   <nav>
+    <ul>
+        <li id="websitename-worldnews"><h1 style="color:white;"> WORLD NEWS </h1></li>
+
+        <li  id="home">
+           <a href="home.html">Home</a>
+        </li>
+        <li>
+           <a href="news.html">News</a>
+        </li>
+        <li>
+           <a href="sport.html">Sport</a>
+        </li>
+        <li>
+           <a href="travel.html">Travel</a>
+        </li>
+        <li>
+           <a href="culture.html">Culture</a>
+        </li>
+        <li> 
+           <a href="more.html">More</a>                             
+        <li>
+           <a href="signin.html">Signin</a>
+        </li>
+        <li>
+           <div id="search-button"> 
+              <form action="https://www.google.com/search" method="GET">
+                 <input type="text" class="googlesearch-text" name="q" placeholder="Search...">
+                 <input type="submit" value="Search">
+             </form>
+            </div>
+        </li>
+    </ul>
+   </nav>
+
+    <h2>Your message has been received.</h2>
+     <p>We will contact you as soon as possible </p>
+      
+
+
+    <div id="response-table"> 
+
+        <table id="table-for-hours">
+           
+        <caption><strong>Working hours</strong></caption>
+
+        
+      <thead>        
+           <tr> 
+              <th></th>
+              <th>First Shift</th>
+              <th>Break</th>
+              <th>Second Shift</th>
+           </tr>
+        </thead>
+
+       
+      
+        <tbody>
+         <tr>
+            <td>Sunday</td>
+            <td>----</td>
+            <td>----</td>
+            <td>----</td>
+         </tr>
+
+           <tr>
+              <td>Monday</td> 
+              <td>8.30 am - 12.30 pm</td>
+              <td>12.30 pm - 13.30 pm</td>
+              <td>13.30 pm - 17.30 pm</td>
+           </tr>
+           <tr>
+              <td>Tuesday</td>
+              <td>8.30 am - 12.30 pm</td>
+              <td>12.30 pm - 13.30 pm</td>
+              <td>13.30 pm - 17.30 pm</td>
+           </tr>
+           <tr>
+              <td>Wednesday</td>
+              <td>8.30 am - 12.30 pm</td>
+              <td>12.30 pm - 13.30 pm</td>
+              <td>13.30 pm - 17.30 pm</td>
+           </tr>
+           <tr>
+              <td>Thursday</td>
+              <td>8.30 am - 12.30 pm</td>
+              <td>12.30 pm - 13.30 pm</td>
+              <td>13.30 pm - 17.30 pm</td>
+           </tr>
+           
+           <tr>
+            <td>Friday</td>
+            <td>8.30 am - 12.30 pm</td>
+            <td>12.30 pm - 13.30 pm</td>
+            <td>13.30 pm - 17.30 pm</td>
+         </tr>
+        
+        
+        </tbody>
+        
+        <tfoot>
+            <tr>
+               <th>Saturday</th>
+               <th>8.30 am - 12.30 pm</th>
+               <th>----</th>
+               <th>----</th>
+            </tr>
+         </tfoot>
+
+      </table>
+    </div>
+    
+    <div class="home-icon">
+    <a  href="home.html"> <i class="fa fa-home"></i></a>
+   </div><br>
+
+    <div class="footer">
+        <p>Copyright © 2021 World News.<br> The World News is not responsible for the content of external sites.</p>
+     </div>
+    
+</body>
+</html>

@@ -1,0 +1,153 @@
+
+*{
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+body{
+  background-color: rgb(231, 234, 238);
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100%;
+ background-attachment: fixed;
+
+}
+
+ul {  
+   
+   z-index: 1;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+   
+     
+ }
+
+ li { 
+   margin-right: 20px;
+   margin-left: 12px;
+   float: left;
+ }
+ 
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ li a:hover {
+   background-color: #111;
+
+ }
+    
+ h2{
+  text-align: center;
+  margin-bottom: 4px;
+ }
+
+
+
+
+ .active {
+   background-color: #403ec5;
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   
+ }
+
+
+#websitename-worldnews{
+  margin-top: 15px;
+}
+
+
+.banner{
+  margin-top: 2px;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0px;
+  text-align: center;
+ font-style: italic;
+ font-size: 20px;
+ color: white;
+ margin-bottom: 20px;
+}
+
+.videos{
+  float: left;
+  margin:15px;  
+}
+
+
+.home-icon{
+  font-size: 40px;
+
+}
+
+label{
+  font-size: 20px;
+  width: 250px;
+  display: inline-block;
+  text-align:left;
+  margin-bottom: 15px;
+}
+
+
+
+
+p,article{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+#search-button{
+      float: right;
+      margin-left:180px;
+      margin-top: 18px;
+      margin-bottom: 14px;
+     
+
+   }
+
+   input[type=submit] {
+    background-color: #ffffff;
+    padding: 6px 12px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+  }
+
+  .googlesearch-text{
+    width: 190px;
+    height: 25px;
+    border-radius: 4px;
+
+  }
+
+ 
+.footer{
+  background-color: #333;
+  padding: 24px 0;
+  text-align: center;
+  
+ 
+    
+}
+
+
+.footer p{
+    color:white;
+    font-size: 16px;
+    
+}
+

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Register page">
+    <meta name="keywords" content="Resgister">
+    <meta name="author" content="Berkay Çetin">
+    <meta name = "viewport" content= "width = device-with , initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <title>Register - World News </title>
+
+
+    <style>
+
+       .home-icon{
+          font-size: 30px;
+          color: rgb(10, 201, 143);
+
+       }
+
+      body{
+            background-image:url(https://i.pinimg.com/originals/fd/52/af/fd52af4100d3a275fcae8b42f62f6594.jpg) ;
+            background-size: cover;
+            
+           
+         }
+      
+         #websitename-worldnews{
+            margin-top: 8px;
+         }
+      
+         #id-for-upload{
+            margin-left: 46px;
+         }
+      
+      
+      
+      
+      input[type=submit],[type=reset] {
+        background-color: #ffffff;
+        padding: 6px 12px;
+        border:none;
+        border-radius: 4px;
+        cursor: pointer;
+       
+      }
+      
+      
+      .register-form-elements{
+         border: 2px solid white ;
+      border-radius: 5px;
+      width: 300px;
+      }
+      
+      #register-form-cevre{ 
+         background-color: rgb(223, 219, 219); opacity: 0.9;
+          text-align: center;
+           border-style: outset;
+           width:50%;
+          margin: 0 auto;
+          margin-top: 30px;
+          margin-bottom: 15px;
+          border-radius: 5px;
+          
+           
+      }
+      
+      #register-interestslabel{
+      margin-top: 50px;
+      text-align: center;
+      }
+      
+      #register-departmenid{
+      font-size: 20px;
+      width: 180px;
+      display: inline-block;
+      text-align:left;
+      
+      }
+      
+      
+      
+      #register-interests-genel{
+      width: 100%;
+      height: 150px;
+      }
+      
+      #register-interests-1{
+      display: inline-block;
+      position: relative;
+      margin-left:150px;
+      margin-top: 30px;
+    
+      
+      }
+      
+      #register-interests-2{
+      display: inline-block;
+      margin-right: 150px;
+      margin-top: 30px;
+      
+      
+      }
+      
+      #register-buttons{
+      margin-bottom: 30px;
+      display: inline-block;
+      
+    
+      }
+      
+      #search-button{
+            float: right;
+            margin-left: 200px;
+            margin-top: 11px;
+            
+      }
+
+     #register-gender{
+            margin-right: 20px;
+      }
+      
+       
+      </style>
+</head>
+
+   <body>
+
+      <nav>
+        <ul>
+            <li id="websitename-worldnews"><h1 style="color:white;"> WORLD NEWS </h1></li>
+   
+            <li  id="home">
+               <a href="home.html">Home</a>
+            </li>
+            <li>
+               <a href="news.html">News</a>
+            </li>
+            <li>
+               <a href="sport.html">Sport</a>
+            </li>
+            <li>
+               <a href="travel.html">Travel</a>
+            </li>
+            <li>
+               <a href="culture.html">Culture</a>
+            </li>
+            <li> 
+               <a href="more.html">More</a>                             
+            <li>
+               <a href="signin.html">Signin</a>
+            </li>
+            <li>
+               <div id="search-button"> 
+                  <form action="https://www.google.com/search" method="GET">
+                     <input type="text" class="googlesearch-text" name="q" placeholder="Search...">
+                     <input type="submit" value="Search">
+                 </form>
+                </div>
+            </li>
+        </ul>
+      </nav>
+
+
+        
+
+<div id="register-form-cevre">
+    <div id="register-form">
+      <form action="home.html" method="POST"><br>
+         <p> 
+            <label for="rname"> Name Surname :</label>
+         <input type="text" class="register-form-elements" name="register-name"  id="rname" required>
+         </p>
+
+         <p>
+            <label for="rpassword">Password:</label>
+            <input type="password" class="register-form-elements" name="register-password" id="rpassword" required>
+         </p>
+   
+         <p> 
+            <label for="rmail">Email:</label>
+         <input type="email" class="register-form-elements" name="register-email" id="rmail" required>
+         </p>
+
+         <p>
+         <label for="dofbirth" id="register-dofbirth"> Date of birth:</label>
+         <input type="date" class="register-form-elements" name="register-dateofbirth" id="dofbirth" >
+         </p>
+
+
+         <p>
+            <label for="department">Department:</label>
+            <select name="register-department" class="register-form-elements" id="department" >
+               <option>----</option>
+               <option>Computer Engineering</option>
+               <option>Electrical and electronic engineering</option>
+               <option>Civil Engineering</option>
+               <option>Mechanical engineering</option>
+               <option>Chemical engineering</option>
+               <option>Architecture</option>
+               <option>Interior architecture </option>
+            </select>
+         </p>
+
+         <p>
+            <label class="textarea-icin-label" for="aboutme">About Me:</label>
+            <textarea name="register-aboutme" class="register-form-elements" id="aboutme" rows="10" cols="20" ></textarea><br><br>
+         </p>
+
+         
+         <p> 
+            <label for="cinsiyet" id="register-gender">Gender:</label>
+            Male<input type="radio" class="register-form-gender" id="cinsiyet" name="register-gender">
+            Female <input type="radio" class="register-form-gender"  name="register-gender"> 
+            Other<input type="radio" class="register-form-gender"  name="register-gender"> 
+         </p>
+
+         <p>
+          <label id="id-for-upload" for="UploadPhoto">Upload your photo:</label>
+          <input type="file" class="register-form-upload" id="UploadPhoto" name="filename">
+         </p><br><br>
+
+
+         <p>Mark Your Interests:</p>
+
+      <div id="register-interests-genel">
+        <div id="register-interests-1">
+         Autos and Vehicles<input type="checkbox" name="Hobiler"><br>
+         Music <input type="checkbox" name="Hobiler"> <br>
+         Gaming<input type="checkbox" name="Hobiler"><br>
+         Politics<input type="checkbox" name="Hobiler"><br>
+         Science and Technology<input type="checkbox" name="Hobiler"><br>
+        </div>
+
+        <div id="register-interests-2">
+         Comedy<input type="checkbox" name="Hobiler"><br>
+         Films and Animations<input type="checkbox" name="Hobiler"><br>
+         Pets and Animals<input type="checkbox" name="Hobiler"> <br>
+         Sports<input type="checkbox" name="Hobiler"><br>
+         Astronomy<input type="checkbox" name="Hobiler"><br>
+        </div>
+      </div> 
+
+       <div id="register-buttons">
+         <input type="submit" name="send" value="Submit" onclick="alert('Thanks for registration !')">
+         <input type="reset" value="Reset"><br>
+       </div>
+      </form>
+      
+      <a class="home-icon" href="home.html"> <i class="fa fa-home"></i></a><br><br>
+   </div>
+</div>  
+
+
+    <div class="footer">
+        <p>Copyright © 2021 World News.<br> The World News is not responsible for the content of external sites.</p>
+     </div>
+
+</body>
+</html>
