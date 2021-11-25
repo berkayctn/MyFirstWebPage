@@ -5,4 +5,5 @@ It's based on a statement of work and I covered all need-to-know parts on HTML,C
 * Phase 2 is the responsive and enhanced version of phase 1 (with using Bootstrap)
 * I used Bootstrap version 4.6.0
 
- 
+# Phase1
+
