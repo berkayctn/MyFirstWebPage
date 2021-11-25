@@ -7,7 +7,8 @@ It's based on a statement of work and I covered all need-to-know parts on HTML,C
 
 # A screenshot from phase1
 
-![main1](https://user-images.githubusercontent.com/69761460/143401448-227c6647-b00e-4f46-9b60-0f9acbd9e5a8.PNG)
+![main1](https://user-images.githubusercontent.com/69761460/143401976-15bd872b-382c-437e-85e3-16eaef19bd93.PNG)
+
 
 #  A screenshot from phase2
 
